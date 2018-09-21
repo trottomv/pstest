@@ -1,0 +1,6 @@
+pysolr==3.7.0
+pycountry
+django-oscar-api
+django-oscar-paypal
+django-rest-framework
+django-anymail
