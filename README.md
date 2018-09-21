@@ -12,13 +12,13 @@ Quick start
 2. Execute follow command from shell: 
 
 ```
-  $ pip install virtualenv
-  $ virtualenv venv
-  $ . venv/bin/activate
-  $ pip install -r requirements.txt
-  $ touch db.sqlite3
-  $ python manage.py migrate
-  $ python manage.py runserver 8000
+  cd pstest/
+  pip install virtualenv
+  virtualenv venv
+  . venv/bin/activate
+  pip install -r requirements.txt
+  python manage.py migrate
+  python manage.py runserver 8000
 ```
 
 3. Api instruction:
